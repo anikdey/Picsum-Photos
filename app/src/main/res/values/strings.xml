@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PicsumPhotos</string>
+
+    <string name="try_again">Try Again</string>
+    <string name="nothing_found">No picture found</string>
+    <string name="author">Author : </string>
+    <string name="list_title">Photo List</string>
+
+</resources>

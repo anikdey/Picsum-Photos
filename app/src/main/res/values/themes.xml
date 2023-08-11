@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.PicsumPhotos" parent="android:Theme.Material.Light.NoActionBar" >
+        <item name="android:statusBarColor" tools:targetApi="l">@color/primary</item>
+    </style>
+
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_round_photo_album</item>
+        <item name="windowSplashScreenBackground">@color/primary</item>
+        <item name="postSplashScreenTheme">@style/Theme.PicsumPhotos</item>
+    </style>
+
+</resources>
